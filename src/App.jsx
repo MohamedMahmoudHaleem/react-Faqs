@@ -1,6 +1,8 @@
-import { useState } from "react";
 
 import "./App.css";
+import iconPlus  from './assets/images/icon-plus.svg'
+import iconMin  from './assets/images/icon-minus.svg'
+import iconStar  from './assets/images/icon-star.svg'
 
 function App() {
   return (
@@ -9,7 +11,7 @@ function App() {
         <div className="second-pic"></div>
         <div className="faqs">
           <header>
-            <img src="./assets/images/icon-star.svg" alt="star" />
+            <img src={iconStar} alt="star" />
             <h1>FAQs</h1>
           </header>
           <div className="q-group">
@@ -18,7 +20,7 @@ function App() {
               <a className="collapse">
                 <img
                   className="min"
-                  src="./assets/images/icon-minus.svg"
+                  src={iconMin}
                   alt="min"
                 />
               </a>
@@ -37,7 +39,7 @@ function App() {
               <a className="collapse">
                 <img
                   className="min"
-                  src="./assets/images/icon-minus.svg"
+                  src={iconMin}
                   alt="min"
                 />
               </a>
@@ -54,7 +56,7 @@ function App() {
               <a className="collapse">
                 <img
                   className="min"
-                  src="./assets/images/icon-minus.svg"
+                  src={iconMin}
                   alt="min"
                 />
               </a>
@@ -73,7 +75,7 @@ function App() {
               <a className="collapse">
                 <img
                   className="min"
-                  src="./assets/images/icon-minus.svg"
+                  src={iconMin}
                   alt="plus"
                 />
               </a>
