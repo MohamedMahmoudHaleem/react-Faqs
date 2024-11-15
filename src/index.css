@@ -76,7 +76,7 @@ body {
   box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.2);
   margin: 2rem 0.2rem;
   opacity: 0;
-  animation: animate-1 0.4s linear forwards;
+  animation: accordion 0.4s linear forwards;
 }
 
 .question {
@@ -96,9 +96,6 @@ body {
   margin-bottom: 3rem;
 }
 .attribution {
-  transform: translateY(80%);
-  height: 40px;
-  width: 100%;
   text-align: center;
   font-size: 1.8rem;
 }
@@ -108,7 +105,7 @@ body {
 .hide {
   display: none;
 }
-@keyframes animate-1 {
+@keyframes accordion {
   50% {
     opacity: 0.5;
   }
