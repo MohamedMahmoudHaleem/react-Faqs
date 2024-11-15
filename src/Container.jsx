@@ -1,4 +1,5 @@
 import iconStar from "./assets/images/icon-star.svg";
+import Footer from "./Footer.jsx";
 import Qgroup from "./Qgroup.jsx";
 
 const questionAnswer = [
@@ -36,6 +37,7 @@ export default function Container() {
           />
         ))}
       </div>
+      <Footer />
     </div>
   );
 }

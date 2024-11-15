@@ -12,13 +12,13 @@ export default function Qgroup({ question, answer }) {
     <div className="q-group">
       <div className="question">
         <h4>{question}</h4>
-        <a className="collapse" onClick={handleOpen}>
+        <button className="collapse" onClick={handleOpen}>
           {open ? (
             <img className="min" src={iconMin} alt="min" />
           ) : (
             <img className="min" src={iconPlus} alt="plus" />
           )}
-        </a>
+        </button>
       </div>
       {open && <p className="text">{answer}</p>}
     </div>
